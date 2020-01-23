@@ -4,7 +4,12 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                
+
+                <!--  DMSKin内置转换器 配色  -->
+                <!--<ResourceDictionary Source="pack://application:,,,/DMSkin.WPF;Component/Styles/DMSkin.xaml" />-->
+
+
+
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

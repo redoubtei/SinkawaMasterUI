@@ -9,8 +9,7 @@
 
                 <!--  DMSKin内置转换器 配色  -->
                 <!--<ResourceDictionary Source="pack://application:,,,/DMSkin.WPF;Component/Styles/DMSkin.xaml" />-->
-
-
+                <ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Skin;Component/Main.xaml"></ResourceDictionary>
 
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

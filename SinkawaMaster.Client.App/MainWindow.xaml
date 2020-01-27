@@ -4,9 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SinkawaMaster.Client.App"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:skin="clr-namespace:SinkawaMaster.Skin;assembly=SinkawaMaster.Skin"
+        xmlns:attr="clr-namespace:SinkawaMaster.Skin.Attr;assembly=SinkawaMaster.Skin"
+        mc:Ignorable="d"        
+        Title="MainWindow"
+        Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBox x:Name="txtName"  Style="{StaticResource TextBoxStyle1}" ></TextBox>
+            <Button Content="测试按钮"></Button>
+        </StackPanel>
     </Grid>
 </Window>

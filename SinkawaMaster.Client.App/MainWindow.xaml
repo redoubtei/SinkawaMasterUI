@@ -14,10 +14,10 @@
             <ColumnDefinition Width="100"></ColumnDefinition>
             <ColumnDefinition Width="100"></ColumnDefinition>
             <ColumnDefinition Width="100"></ColumnDefinition>
-
         </Grid.ColumnDefinitions>
         <StackPanel>
-            <TextBox x:Name="txtName"  Style="{StaticResource TextBoxStyle1}" ></TextBox>
+            <attr:TextBoxAttr Maxlen="3" Style="{StaticResource TextBoxStyle1}"></attr:TextBoxAttr>
+            <!--<TextBox x:Name="txtName"   MaxLength="9" Style="{StaticResource TextBoxStyle1}" ></TextBox>-->
             <Button Content="测试按钮"></Button>
         </StackPanel>
     </Grid>

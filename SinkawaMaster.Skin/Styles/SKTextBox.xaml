@@ -4,7 +4,7 @@
     xmlns:attr="clr-namespace:SinkawaMaster.Skin.Attr" >
 
     <!-- TextBox 样式-->
-    <Style TargetType="TextBox" x:Name="TextBoxStyle1">
+    <Style TargetType="TextBox" x:Key="TextBoxStyle1">
         <Setter Property="Foreground" Value="Blue"></Setter>
     </Style>
     

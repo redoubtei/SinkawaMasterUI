@@ -12,7 +12,7 @@ namespace SinkawaMaster.Skin.Attr
     {
 
         public static readonly DependencyProperty MaxlenDependency =
-            DependencyProperty.Register("Maxlen", typeof(int), typeof(TextBoxAttr), new PropertyMetadata(""));
+            DependencyProperty.Register("Maxlen", typeof(int), typeof(TextBoxAttr), null);
 
         public int Maxlen
         {

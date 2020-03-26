@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SinkawaMaster.Client.App"
-        xmlns:skin="clr-namespace:SinkawaMaster.Skin;assembly=SinkawaMaster.Skin"
-        xmlns:attr="clr-namespace:SinkawaMaster.Skin.Attr;assembly=SinkawaMaster.Skin"
+        xmlns:skin="clr-namespace:SinkawaMaster.Provider.Skin;assembly=SinkawaMaster.Provider.Skin"
+        xmlns:attr="clr-namespace:SinkawaMaster.Provider.Skin.Attr;assembly=SinkawaMaster.Provider.Skin"
         mc:Ignorable="d"        
         Title="MainWindow"
         Height="450" Width="800">

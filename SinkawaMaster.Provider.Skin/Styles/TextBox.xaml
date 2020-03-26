@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:attr="clr-namespace:SinkawaMaster.Skin.Attr" >
+    xmlns:attr="clr-namespace:SinkawaMaster.Provider.Skin.Attr" >
 
     <!-- TextBox 样式-->
     <Style TargetType="TextBox" x:Key="TextBoxStyle1">

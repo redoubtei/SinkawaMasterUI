@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,5 +25,16 @@ namespace SinkawaMaster.Client.App
         {
             InitializeComponent();
         }
+
+        private Assembly _assembly = Assembly.GetExecutingAssembly();
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string winName = ((Button)e.OriginalSource).Tag.ToString();
+            Window win = ((Window)_assembly.CreateInstance(string.Format("BootstrapWpfStyle.{0}", winName)));
+            win.Owner = this;
+            win.Show();
+        }
+
     }
 }

@@ -1,13 +1,11 @@
 ﻿<ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:attr="clr-namespace:SinkawaMaster.Provider.Skin.Attr" >
+    xmlns:x1="clr-namespace:System;assembly=mscorlib">
 
-    <!-- TextBox 样式-->
-    <Style TargetType="TextBox" x:Key="TextBoxStyle1">
-        <Setter Property="Foreground" Value="Blue"></Setter>
-    </Style>
-    
-    
+    <!--基样式-->
+ 
+
+ 
     
 </ResourceDictionary>

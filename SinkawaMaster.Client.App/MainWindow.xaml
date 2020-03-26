@@ -18,7 +18,7 @@
             <Button Margin="5" Content="代码" Tag="Win_Code"></Button>
             <Button Margin="5" Content="数据表格" Tag="Win_DataGrid"></Button>
             <Button Margin="5" Content="进度条" Tag="Win_ProgressBar"></Button>
-            <Button Margin="5" Content="输入框" Tag="Win_TextBox"></Button>
+            <Button Margin="5" Content="输入框" Tag="Window_TextBox"></Button>
             <Button Margin="5" Content="密码框" Tag="Win_PasswordBox"></Button>
             <Button Margin="5"  Content="下拉框" Tag="Win_ComboBox"></Button>
             <Button Margin="5"  Content="复选框" Tag="Win_CheckBox"></Button>

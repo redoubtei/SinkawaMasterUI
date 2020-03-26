@@ -31,7 +31,7 @@ namespace SinkawaMaster.Client.App
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string winName = ((Button)e.OriginalSource).Tag.ToString();
-            Window win = ((Window)_assembly.CreateInstance(string.Format("BootstrapWpfStyle.{0}", winName)));
+            Window win = ((Window)_assembly.CreateInstance(string.Format("SinkawaMaster.Client.App.Sample.{0}", winName)));
             win.Owner = this;
             win.Show();
         }

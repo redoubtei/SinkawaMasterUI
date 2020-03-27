@@ -102,11 +102,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SinkawaMaster.Provider.Skin\SinkawaMaster.Provider.Skin.csproj">
-      <Project>{87d0ad8e-19b1-4699-aa67-f2030a58380d}</Project>
-      <Name>SinkawaMaster.Provider.Skin</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

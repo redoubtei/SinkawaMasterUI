@@ -9,10 +9,7 @@
 
     <!--窗体样式-->
     <!--Font针对TextBlock-->
-    <Style BasedOn="{x:Null}" TargetType="{x:Type Window}">
-        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}"></Setter>
-        <Setter Property="FontSize" Value="{DynamicResource DefaultFontSize}"></Setter>
-        <Setter Property="Foreground" Value="{DynamicResource DefaultForeground}"></Setter>
-        <Setter Property="Background" Value="{DynamicResource DefaultBackground}"></Setter>
-    </Style>
+
+ 
+   
 </ResourceDictionary>

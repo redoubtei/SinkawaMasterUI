@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Skin", "02.Skin", "{5344
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinkawaMaster.Client.App", "SinkawaMaster.Client.App\SinkawaMaster.Client.App.csproj", "{7BE59A6D-29D9-4613-91C9-5B267046FC0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinkawaMaster.Provider.Skin", "SinkawaMaster.Provider.Skin\SinkawaMaster.Provider.Skin.csproj", "{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{7BE59A6D-29D9-4613-91C9-5B267046FC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE59A6D-29D9-4613-91C9-5B267046FC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE59A6D-29D9-4613-91C9-5B267046FC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7BE59A6D-29D9-4613-91C9-5B267046FC0D} = {B2B24693-2322-4E2D-8C30-7E0E90DF4223}
+		{43BCC2F4-29BC-4A17-A5DB-EAB8A8B3C41D} = {5344A22B-00D7-4C82-99F4-05B95053639F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {49502EB1-8ED0-4022-BD5B-0EDF478CB78F}

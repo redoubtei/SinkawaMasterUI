@@ -2,7 +2,7 @@
     <ResourceDictionary.MergedDictionaries>
 
         <!--   内置转换器 配色  -->
-        <ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;Component/Styles/TextBox.xaml" />
+        <!--<ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;Component/Styles/TextBox.xaml" />-->
 
 
 

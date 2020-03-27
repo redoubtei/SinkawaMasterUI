@@ -4,9 +4,9 @@
     xmlns:attr="clr-namespace:SinkawaMaster.Provider.Skin.Attr" >
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Colors.xaml"></ResourceDictionary>
-        <ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Fonts.xaml"></ResourceDictionary>
-        <ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Sizes.xaml"></ResourceDictionary>
+        <!--<ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Colors.xaml"></ResourceDictionary>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Fonts.xaml"></ResourceDictionary>-->
+        <!--<ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;component/Styles/Sizes.xaml"></ResourceDictionary>-->
     </ResourceDictionary.MergedDictionaries>
     <!--基样式-->
     <Style x:Key="BaseStyle" BasedOn="{x:Null}" TargetType="{x:Type Control}">
@@ -14,6 +14,6 @@
         <Setter Property="FontSize" Value="{DynamicResource DefaultFontSize}"></Setter>
         <Setter Property="Foreground" Value="{DynamicResource DefaultForeground}"></Setter>
     </Style>
-    
-    
+
 </ResourceDictionary>
+    

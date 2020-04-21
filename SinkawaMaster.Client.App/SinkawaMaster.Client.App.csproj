@@ -114,6 +114,10 @@
       <Project>{43bcc2f4-29bc-4a17-a5db-eab8a8b3c41d}</Project>
       <Name>SinkawaMaster.Provider.Skin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Skin.Layer.Dark\Skin.Layer.Dark.csproj">
+      <Project>{44baa883-eb2a-41e7-a9a0-db8057f52ebe}</Project>
+      <Name>Skin.Layer.Dark</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

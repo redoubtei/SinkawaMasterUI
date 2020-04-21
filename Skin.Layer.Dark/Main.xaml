@@ -1,0 +1,12 @@
+﻿<ResourceDictionary  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+
+        <!--   内置转换器 配色  -->
+        <!--<ResourceDictionary Source="pack://application:,,,/SinkawaMaster.Provider.Skin;Component/Styles/TextBox.xaml" />-->
+
+        <ResourceDictionary  Source="/Skin.Layer.Dark;Component/Styles/Color.xaml" ></ResourceDictionary>
+
+
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+ 
